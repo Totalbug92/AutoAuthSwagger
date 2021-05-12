@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="options.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js" ></script>
+  </head>
+  <body>
+    <h3>
+      Auto Auth for Swagger
+    </h3>
+    <div id='inputWrapper'>
+      <label for='authInput'>Apikey:</label>
+      <input autofocus type='text' id='authInput' class="form-control">
+      <button type='button' id='authBtn' class="btn btn-primary">set auth key</button>
+    </div>
+    <div id='notSwaggerInfo' style="visibility: hidden;">
+      <p>This extension only works on swagger pages</p>
+    </div>
+    <script src='popup.js'></script>
+  </body>
+</html>

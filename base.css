@@ -1,0 +1,10 @@
+body {
+  width: 400px;
+  height: 150px;
+  font-family: 'Roboto', sans-serif !important;
+  padding: 8px;
+}
+input {
+  width: 100%;
+  margin-bottom: 8px !important;
+}
