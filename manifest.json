@@ -15,7 +15,7 @@
   "icons": {
     "128": "/images/icon/key_icon128.png"
   },
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": ["storage", "activeTab"],
   "content_scripts": [{
     "matches": ["<all_urls>"],
     "js": ["contentScript.js"]
